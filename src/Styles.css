@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+.container_root{
+    width: 100%;
+}
+.header {
+    background-color: black;
+    width: 100%;
+}
+
+.header_elements {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.header_elements_img{
+    width: 100%;
+}
+
+.header_elements_search {
+    background-color: red;
+    padding: 10px;
+}
+.header_elements_search_group{
+    background-color: white;
+    border-radius: 5px;
+}
+.header_elements_search_group i {
+    border: none;
+    margin-left: 10px;
+}
+.header_elements_search_group input {
+    border: none;
+    margin-left: 10px;
+}
+.movies_container{
+    display: flex;
+    justify-content: center;
+}
+.movie_detail{
+    position: relative;
+    font-size: 14px;
+}
+.descripcion {
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.801);
+}
+.descripcion_detail{
+    display: none;
+}
+
+.descripcion {
+    pointer-events: none;
+}
+.descripcion_detail{
+    pointer-events: auto;
+}
+
+
+
+.color_card_container {
+    background-color: rgb(89, 86, 86); 
+}
