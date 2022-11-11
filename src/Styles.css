@@ -22,8 +22,8 @@ body {
 }
 
 .header_elements_search {
-    background-color: red;
-    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    padding: 4px;
 }
 .header_elements_search_group{
     background-color: white;
@@ -48,7 +48,7 @@ body {
 .descripcion {
     position: absolute;
     bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.801);
+    background-color: rgba(0, 0, 0, 0.884);
 }
 .descripcion_detail{
     display: none;
@@ -64,5 +64,5 @@ body {
 
 
 .color_card_container {
-    background-color: rgb(89, 86, 86); 
+    background-color: rgb(24, 24, 24); 
 }
